@@ -1,0 +1,89 @@
+Sample Document for Q&A Testing
+
+Introduction to Artificial Intelligence
+
+Artificial Intelligence (AI) is a branch of computer science that aims to create machines capable of intelligent behavior. AI systems can learn from data, recognize patterns, make decisions, and solve problems that typically require human intelligence.
+
+Types of AI
+
+1. Narrow AI (Weak AI): Designed for specific tasks
+   - Voice assistants like Siri and Alexa
+   - Recommendation systems on Netflix and Amazon
+   - Image recognition in self-driving cars
+
+2. General AI (Strong AI): Hypothetical AI with human-like intelligence
+   - Could perform any intellectual task that a human can
+   - Currently exists only in science fiction
+
+3. Superintelligent AI: AI that surpasses human intelligence
+   - Could solve complex problems beyond human capability
+   - Raises important ethical and safety concerns
+
+Machine Learning
+
+Machine Learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed. There are three main types:
+
+- Supervised Learning: Learns from labeled training data
+- Unsupervised Learning: Finds patterns in unlabeled data
+- Reinforcement Learning: Learns through trial and error with rewards
+
+Deep Learning
+
+Deep Learning is a subset of machine learning that uses neural networks with multiple layers. It's particularly effective for:
+
+- Image and speech recognition
+- Natural language processing
+- Game playing (like AlphaGo)
+- Medical diagnosis
+
+Applications of AI
+
+AI has numerous applications across various industries:
+
+Healthcare:
+- Disease diagnosis and prediction
+- Drug discovery
+- Personalized treatment plans
+- Robot-assisted surgery
+
+Transportation:
+- Self-driving vehicles
+- Traffic optimization
+- Route planning
+- Autonomous drones
+
+Finance:
+- Fraud detection
+- Algorithmic trading
+- Credit scoring
+- Risk assessment
+
+Entertainment:
+- Content recommendation
+- Game AI
+- Virtual reality
+- Music and art generation
+
+Ethics and Challenges
+
+While AI offers tremendous benefits, it also presents challenges:
+
+- Job displacement
+- Privacy concerns
+- Bias in AI systems
+- Safety and control of advanced AI
+- Transparency and explainability
+
+The Future of AI
+
+The future of AI is promising but uncertain. Key areas of development include:
+
+- More sophisticated natural language understanding
+- Advanced robotics
+- AI-human collaboration
+- Ethical AI frameworks
+- Global AI governance
+
+Conclusion
+
+Artificial Intelligence is transforming our world in profound ways. As we continue to develop AI technologies, it's crucial to balance innovation with responsible development to ensure AI benefits all of humanity.
