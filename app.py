@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from openai import OpenAI
 from PyPDF2 import PdfReader
 import docx2txt
@@ -14,8 +14,11 @@ try:
 except Exception:
     requests = None
 
-# Load environment variables
-load_dotenv()
+# Load environment variables (ensure the .env next to this file is used even if cwd differs)
+dotenv_path = find_dotenv(usecwd=True)
+if dotenv_path:
+    load_dotenv(dotenv_path)
+
 # Create OpenAI client (require API key)
 api_key = os.getenv("OPENAI_API_KEY")
 api_key_missing = False
