@@ -1,4 +1,4 @@
-# Document Q&A AI Agent
+# Document Question & Answers AI Agent
 
 A powerful AI-powered question-answering system that allows users to upload documents and ask context-aware questions about their content.
 
@@ -19,7 +19,7 @@ A powerful AI-powered question-answering system that allows users to upload docu
 
 1. **Navigate to the project directory:**
    ```bash
-   cd qa_agent
+   cd ai-agent-workflow-lab
    ```
 
 2. **Create and activate virtual environment:**
@@ -110,9 +110,9 @@ OPENAI_API_KEY=sk-your-actual-api-key-here
 ## Project Structure
 
 ```
-qa_agent/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
+./
+├── app.py             # Main Streamlit application
+├── requirements.txt   # Python dependencies
 ├── .env               # Environment variables (API keys)
 ├── run.sh             # Startup script
 ├── test_imports.py    # Import verification script
