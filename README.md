@@ -1,6 +1,71 @@
 # Document Question & Answers AI Agent
 
-A powerful AI-powered question-answering system that allows users to upload documents and ask context-aware questions about their content.
+A powerful AI-powered question-answering system that allows users to upload documents and ask context-aware questions about their content. A Streamlit-based application that ingests uploaded documents, extracts text, chunks it, retrieves relevant sections via keyword similarity, and then uses an LLM to generate answers grounded in those sections.
+
+## What Problem Does This Script Solve?
+
+Modern knowledge work involves large volumes of unstructured documents like PDF reports, Word documents, notes, and text files. Extracting specific information from these documents typically requires manually searching through long content, which is slow and error-prone.
+
+This script provides a lightweight **Document Q&A AI Agent** that allows users to:
+
+- Upload multiple documents (PDF, DOCX, TXT)
+- Automatically extract and process their content
+- Ask natural language questions about the documents
+- Receive answers generated from the relevant sections of the documents
+
+The application performs three key functions:
+1. **Document ingestion**
+Uploaded files are parsed and converted into raw text.
+
+2. **Context retrieval**
+The text is split into overlapping chunks and scored against the user's question using keyword similarity to identify the most relevant sections.
+
+3. **LLM-assisted answer generation**
+Relevant text chunks are provided to an OpenAI model to generate a context-aware answer grounded in the uploaded documents.
+
+The result is an interactive interface where users can query their documents conversationally instead of manually searching through them.
+
+## Why This Matters
+
+Organizations and individuals increasingly work with large volumes of unstructured information like reports, policies, research papers, meeting notes, and documentation. Traditional search tools are often insufficient because they rely on exact keywords rather than understanding questions.
+
+This tool demonstrates a practical pattern for building AI-powered document assistants:
+
+1. **Faster Knowledge Discovery**
+
+Instead of scanning long documents, users can ask questions directly and receive concise answers derived from the source material.
+
+2. **Practical Introduction to Retrieval-Augmented Generation (RAG)**
+
+The application illustrates the core architecture behind many production AI systems:
+
+- Document ingestion
+- Text chunking
+- Retrieval of relevant context
+- LLM-based answer synthesis
+
+This pattern is widely used in enterprise AI assistants and knowledge management systems.
+
+3. **Low Barrier to Entry**
+
+The implementation intentionally uses simple components:
+
+- Streamlit for a fast UI
+- Lightweight text retrieval (Jaccard similarity)
+- LLM API integration
+
+This makes the project easy to understand, modify, and extend.
+
+4. **Foundation for More Advanced Systems**
+
+The script can be extended into more sophisticated solutions, such as:
+
+- semantic search using embeddings
+- vector databases
+- enterprise knowledge assistants
+- internal documentation copilots
+
+In short, this project demonstrates how to convert static documents into an interactive knowledge interface powered by AI.
 
 ## Features
 
