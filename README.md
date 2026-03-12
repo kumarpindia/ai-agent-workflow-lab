@@ -196,6 +196,15 @@ OPENAI_API_KEY=sk-your-actual-api-key-here
 └── README.md          # This file
 ```
 
+## Future Improvements
+
+- Replace keyword retrieval with vector embeddings
+- Add evaluation framework for answer accuracy
+- Support larger document collections using FAISS
+- Add conversation memory for multi-turn queries
+- Deploy as a containerized service
+
+
 ## License
 
 This project is open source and available under the MIT License.
