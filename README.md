@@ -148,6 +148,18 @@ In short, this project demonstrates how to convert static documents into an inte
 - **Text Analysis**: Keyword-based similarity matching
 - **Environment**: Python virtual environment for dependency isolation
 
+```bash
+User → Streamlit UI
+      ↓
+Document ingestion
+      ↓
+Text chunking
+      ↓
+Retriever
+      ↓
+LLM answer generation
+```
+
 ## Customization
 
 You can customize the application by:
